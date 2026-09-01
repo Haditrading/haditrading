@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Trading Bots & EAs</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <!-- start header  -->
+    <header>
+        <h1>Hadi Trading Academy <br> Trend is Your Friend</h1>
+        <img src="images/logo.png" alt="image is loading">
+    </header>
+    <!-- start navebar  -->
+    <nav>
+        <div class="link">
+            <a href="main.html">Home</a>
+            <a href="explore-more.html">Hadi academy</a>
+            <a href="https://wa.me/+923083965119">Contact Us</a>
+        </div>
+
+    </nav>
+    <!-- start container section  -->
+
+    <div class="container">
+        <h2>Forex Trading Bots & Expert Advisors (EAs)</h2>
+        <button onclick="toggleInfo()">Show/Hide Forex Info</button>
+
+        <div id="info">
+            <h3>🔹 Trading Bots</h3>
+            <ul>
+                <li><b>General Term:</b> "Bot" refers to any automated software that trades markets like Forex, stocks, and crypto.</li>
+                <li><b>AI & Algorithmic Trading:</b> Some bots use AI, machine learning, or complex algorithms.</li>
+                <li><b>Multi-Platform Use:</b> Bots can run on MT4, MT5, cTrader, or custom software.</li>
+            </ul>
+
+            <h3>🔹 Expert Advisors (EAs)</h3>
+            <ul>
+                <li><b>MetaTrader-Specific:</b> Designed for MT4/MT5.</li>
+                <li><b>Rule-Based Trading:</b> Executes trades based on programmed strategies.</li>
+                <li><b>No Emotions:</b> Removes human emotions like fear and greed.</li>
+            </ul>
+
+            <h3>🔹 Key Differences</h3>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Trading Bots</th>
+                    <th>Expert Advisors (EAs)</th>
+                </tr>
+                <tr>
+                    <td>Platform</td>
+                    <td>Multiple (MT4, MT5, cTrader, etc.)</td>
+                    <td>MetaTrader (MT4/MT5)</td>
+                </tr>
+                <tr>
+                    <td>Flexibility</td>
+                    <td>Can use AI and adaptive strategies</td>
+                    <td>Uses fixed rule-based strategies</td>
+                </tr>
+                <tr>
+                    <td>Customization</td>
+                    <td>Advanced with AI/ML options</td>
+                    <td>Traders can modify/create their own</td>
+                </tr>
+            </table>
+
+            <h3>🚀 Should You Use an EA or Bot?</h3>
+            <ul>
+                <li>If you trade on MT4/MT5, an EA is a great choice.</li>
+                <li>If you want more flexibility or AI-powered trading, look for a bot.</li>
+                <li>Always backtest and use a demo account before trading live.</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+<!-- <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+/*  */
+    header {
+      background: rgb(152, 152, 153);
+      font-family:'Courier New', Courier, monospace;
+      color:rgb(145, 37, 37);
+      top: 0;
+      padding: 12px;
+      padding-left: 250px;
+      font-size: 20px;
+      display: flex;
+      gap:50px;
+      text-align: center;
+      padding-right: 48px;
+    }
+  
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+      font-family:'Courier New', Courier, monospace;
+      color:rgb(145, 37, 37);
+    }
+  
+    nav {
+      background: #222;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+  
+    nav a:hover {
+      color: #ffd700;
+    
+}
+@media screen and (max-width:400px) {
+    header {
+        height: 140px;
+    }
+   header h1 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 650px) {
+    header {
+        /* flex-direction: column; */
+        height: 140px;
+        padding-left: 3px;
+
+      }
+      header img{
+        height: 80px;
+        width: 80px;
+      }
+    }
+  
+/*  */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            color: #333;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #info {
+            display: none;
+            text-align: left;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style> -->
+    <!-- link java script file  -->
+    <script src="autocomplete.js"></script>
+    
+
+</body>
+</html>
